@@ -1,0 +1,31 @@
+{
+  "name": "csv-parser-js",
+  "version": "1.0.0",
+  "description": "CSV Parser using NodeJS to ease the analysis of data.",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "http-status": "^1.3.2",
+    "node-fetch": "^2.5.0",
+    "pino": "^5.12.6",
+    "swagger-inline": "^1.0.5",
+    "swagger-ui-express": "^4.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "mocha": "^5.1.1"
+  },
+  "bugs": {
+    "url": "https://github.com/levindoneto/csv-parser-js/issues"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo 'NO TESTS HAVE BEEN IMPLEMENTED YET'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/levindoneto/csv-parser-js"
+  },
+  "author": "Levindo Neto"
+}
